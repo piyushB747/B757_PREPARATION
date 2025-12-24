@@ -27,19 +27,20 @@ At the end of the loop the reference copy of original list is dump into the orig
 		
 		try {
 		for(int i : lst) {
-			if(i == 5) {
-				lst.add(6);
+			if(i == 3) {
+				lst.add(56);
 			}
 		}
 		}catch(Exception ex) {ex.printStackTrace(); }
-		
+		System.out.println(lst);
+
 		lst2.add(1);
 		lst2.add(2);
 		lst2.add(4);
 		
 		for(int i : lst2) {
 			if( i == 2) {
-				lst2.add(3);
+				lst2.add(56654);
 			}
 		}
 		
